@@ -1,13 +1,12 @@
-# book-my-show
+# Book-My-Show
 1. A simple backend LLD machine coding implementation for book my show.
 
-# Go through the DemoApplication Main file. Built the application data there. 
 
-# Integration that are done in this application
-1. Done the classes mapping using different annotations like (@OnetoOne, @OnetoMany, @ManyToMany).
+# Integrations that are done in this application
+1. Mapped entity relationships using different annotations like (@OnetoOne, @OnetoMany, @ManyToMany).
 2. Swagger integration is done using OpenApi , spring fox dependencies.
-3. Jwt Authentication is required to access the APIs.
-4. Using swagger, Can access the Users' API without token (/save, /authenticate). Check Security Config file to see what APIs can be accessed.
+3. Jwt Authentication is done to access the APIs.
+4. Using swagger, One Can access the Users' API without JWT token (/save, /authenticate). Check Security Config file to see what APIs can be accessed without token.
 5. Generate the token using /authenticate API and use in Authorization Tab in swagger.
 6. Redis is used for caching for APIs (Implemented for these APIS MovieShow Apis, Screen Apis).
 7. Using H2 in memory Db
